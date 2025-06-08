@@ -1,0 +1,60 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer rotating ring -->
+  <circle cx="512" cy="512" r="460" fill="none" stroke="url(#blueGradient)" stroke-width="40" stroke-dasharray="2890" stroke-dashoffset="0" opacity="0.6">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 512 512" to="360 512 512" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Inner pulse ring -->
+  <circle cx="512" cy="512" r="358" fill="none" stroke="url(#purpleGradient)" stroke-width="30" stroke-dasharray="2250" stroke-dashoffset="0" opacity="0.75">
+    <animate attributeName="r" values="307;378;307" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="360 512 512" to="0 512 512" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Hexagon background -->
+  <polygon points="512,256 690,358 690,563 512,665 333,563 333,358" fill="url(#darkBlueGradient)" opacity="0.9">
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="2s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Crypto symbol -->
+  <path d="M512,358 L512,563 M410,410 L614,410 M410,512 L614,512" stroke="white" stroke-width="30" stroke-linecap="round" fill="none">
+    <animate attributeName="stroke-width" values="30;40;30" dur="1.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Orbit dots -->
+  <circle cx="512" cy="154" r="30" fill="#60a5fa">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 512 512" to="360 512 512" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="870" cy="512" r="20" fill="#818cf8">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="90 512 512" to="450 512 512" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="512" cy="870" r="30" fill="#60a5fa">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="180 512 512" to="540 512 512" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="154" cy="512" r="20" fill="#818cf8">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="270 512 512" to="630 512 512" dur="3.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Pulse effect -->
+  <circle cx="512" cy="512" r="205" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="10">
+    <animate attributeName="r" values="205;460;205" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M5.5 14.25L16 4.75C16.1667 4.58333 16.3333 4.5 16.5 4.5C16.6667 4.5 16.8333 4.58333 17 4.75L18.5 6.25C18.6667 6.41667 18.75 6.58333 18.75 6.75C18.75 6.91667 18.6667 7.08333 18.5 7.25L8 17.75H5.5V14.25Z" fill="url(#paint0_linear_solana)"/>
+  <path d="M9.25 16.75L18.25 8.75L15.25 5.75L6.25 14.75V16.75H9.25Z" fill="rgba(255, 255, 255, 0.1)"/>
+  <defs>
+    <linearGradient id="paint0_linear_solana" x1="5.5" y1="11.125" x2="18.75" y2="11.125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9945FF"/>
+      <stop offset="1" stop-color="#14F195"/>
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12" cy="12" r="10" fill="url(#paint0_linear_crypto)" />
+  <path d="M14.5 8.5H13V7H11V8.5H9.5C9.22386 8.5 9 8.72386 9 9V15C9 15.2761 9.22386 15.5 9.5 15.5H11V17H13V15.5H14.5C14.7761 15.5 15 15.2761 15 15V9C15 8.72386 14.7761 8.5 14.5 8.5ZM11 14V10H13V14H11Z" fill="white"/>
+  <defs>
+    <linearGradient id="paint0_linear_crypto" x1="2" y1="12" x2="22" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+</svg> 
