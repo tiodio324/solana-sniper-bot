@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <h3>🔥 LIGHTNING-FAST EXECUTION | TOP 20 FASTEST SOLANA SNIPER BOT 🔥</h3>
+  <h3>🔥 LIGHTNING-FAST EXECUTION | TOP 15 FASTEST SOLANA SNIPER BOT 🔥</h3>
   <p><i>Verified by solscan.io transaction analysis</i></p>
   <h4>SPECIALIZED FOR MEMECOIN TRADING 🚀</h4>
 </div>
