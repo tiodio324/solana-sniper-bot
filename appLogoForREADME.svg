@@ -1,0 +1,38 @@
+<svg width="256" height="256" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="512" cy="512" r="460" fill="url(#darkBlueGradient)" />
+  
+  <!-- Outer ring -->
+  <circle cx="512" cy="512" r="420" fill="none" stroke="url(#blueGradient)" stroke-width="60" opacity="0.9" />
+  
+  <!-- Inner ring -->
+  <circle cx="512" cy="512" r="320" fill="none" stroke="url(#purpleGradient)" stroke-width="50" opacity="0.85" />
+  
+  <!-- Hexagon shape -->
+  <polygon points="512,256 690,358 690,563 512,665 333,563 333,358" fill="url(#darkBlueGradient)" stroke="url(#blueGradient)" stroke-width="16" opacity="0.95" />
+  
+  <!-- Crypto symbol, larger and bolder for clear visibility -->
+  <path d="M512,328 L512,593 M380,430 L644,430 M380,512 L644,512" stroke="white" stroke-width="60" stroke-linecap="round" fill="none" />
+  
+  <!-- Four fixed orbit dots, placed symmetrically -->
+  <circle cx="512" cy="154" r="40" fill="#60a5fa" />
+  <circle cx="870" cy="512" r="36" fill="#818cf8" />
+  <circle cx="512" cy="870" r="40" fill="#60a5fa" />
+  <circle cx="154" cy="512" r="36" fill="#818cf8" />
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="darkBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+</svg> 
