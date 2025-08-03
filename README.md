@@ -18,7 +18,7 @@ After losing thousands on slow execution with other bots, I built this Solana Sn
 
 ## ⚡ What This Bot Can Do
 
-- **⚡ BLAZING-FAST Token Sniper**: Execute trades at lightning speed, beating 95% of other traders to newly launched tokens
+- **⚡ BLAZING-FAST Token Sniper**: Execute trades at lightning speed, beating 95% of other traders to newly launched tokens (1700 ms)
 - **💰 Smart Profit Taking**: Auto-secures your gains when targets hit with smart sell parameters - though remember no bot is perfect during extreme volatility
 - **Risk Management**: Self-written stop-losses that actually work even during server congestion (unlike some competitors I tested)
 * **Impact Calculations**: Suggests optimal trade sizes to minimize slippage - crucial for >5 SOL positions
