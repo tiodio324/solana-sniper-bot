@@ -99,7 +99,7 @@ Here's what to tweak in your `.env` file:
 ## 📊 Real-world Performance
 
 From my personal trading in April-May 2025:
-- Consistently in top 20 fastest bots on Solana, Raydium DEX
+- Consistently in top 15 fastest bots on Solana, Raydium DEX
 - Won the race on FLOKI launch by few seconds against other buyers (37% pump)
 - Survived the BONK crash with minimal losses thanks to stop-loss
 - Outperforms manual trading by tracking token creation directly through the Solana network
