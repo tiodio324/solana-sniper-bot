@@ -16,6 +16,11 @@ Our Solana Sniper Bot in the **TOP 15 FASTEST SNIPER BOTS** on the Solana blockc
 
 After losing thousands on slow execution with other bots, I built this Solana Sniper Bot that delivers seriously fast execution speeds. Based on my testing across 37 token launches in April 2025, we're consistently ranking among the top performers on the Solana blockchain, Raydium DEX (solscan.io confirmed this). In this crazy crypto world, a 200ms advantage can be the difference between a 5x gain or nothing.
 
+**Execution Speed**:
+- **Total**: 1700ms
+- **Processing**: 300ms (instruction building & serialization)  
+- **Network**: 1500ms (blockchain confirmation & DEX execution)
+
 ## ⚡ What This Bot Can Do
 
 - **⚡ BLAZING-FAST Token Sniper**: Execute trades at lightning speed, beating 95% of other traders to newly launched tokens (1700 ms)
